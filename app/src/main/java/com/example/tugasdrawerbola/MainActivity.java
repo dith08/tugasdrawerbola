@@ -50,12 +50,12 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new PemainTerbaik())
                             .commit();
-                    getSupportActionBar().setTitle("Minuman Khas Kudus");
+                    getSupportActionBar().setTitle("Pemain Terbaik Premier League");
                 } else if (itemId == R.id.menu_item3) {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new Skor())
                             .commit();
-                    getSupportActionBar().setTitle("Makanan Minuman Favorit");
+                    getSupportActionBar().setTitle("Hasil Pertandingan Premier League");
                 } else if (itemId == R.id.menu_item4) {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new Rating())
